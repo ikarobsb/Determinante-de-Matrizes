@@ -7,3 +7,6 @@ instale os módulos :
 > import numpy as np
 
 Eduardo Ribeiro Leal <eduardoleal.contact@gmail.com>
+
+# IFC INSTITUTO FEDERAL CARATINENSE - CAMPUS ARAQUARI - BSI
+Feito no semestre1
