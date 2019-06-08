@@ -53,7 +53,7 @@ def determinante(matriz_a):
         for i in range(n):
             novamatriz = matriz_a[1:, :]
             novamatriz = np.delete(novamatriz, i, axis=1)
-            det = det + math.pow(-1, 1 + i + 1) * matriz_a[0, i] * (determinante(novamatriz))
+            det += math.pow(-1, 1 + i + 1) * matriz_a[0, i] * (determinante(novamatriz))
 
     return det
 
@@ -62,8 +62,13 @@ def define_matriz():
     while True:
         try:
             tamanho_da_matriz = int(input("Qual o tamanho da matriz nxn ? (entre 2 até 5) "))
-            if tamanho_da_matriz <= 1 or tamanho_da_matriz >= 6:
+            if tamanho_da_matriz <= 1:
                 tamanho_da_matriz = 2
+                print("Devido ao valor digitado ser inválido\n"
+                      "A matriz será considerada {}".format(tamanho_da_matriz))
+                return tamanho_da_matriz
+            elif tamanho_da_matriz >= 6:
+                tamanho_da_matriz = 5
                 print("Devido ao valor digitado ser inválido\n"
                       "A matriz será considerada {}".format(tamanho_da_matriz))
                 return tamanho_da_matriz
