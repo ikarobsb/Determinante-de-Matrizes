@@ -9,4 +9,3 @@ instale os módulos :
 Eduardo Ribeiro Leal <eduardoleal.contact@gmail.com>
 
 # IFC INSTITUTO FEDERAL CARATINENSE - CAMPUS ARAQUARI - BSI
-Feito no semestre1
