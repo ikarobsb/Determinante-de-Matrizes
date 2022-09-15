@@ -1,14 +1,5 @@
-#!/usr/bin/python
-
-
-# -*- coding: windows-1252 -*-
-# Eduardo Ribeiro Leal <eduardoleal.contact@gmail.com>
-# calculo de determinantes
-
 import math
 import numpy as np
-
-# Só mecher aqui se souber o que estiver fazendo
 
 exemplo_matriz2 = '\n\n' \
                   '(a11, a12)\n' \

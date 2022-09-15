@@ -1,10 +1,3 @@
-#!/usr/bin/python
-
-
-# -*- coding: windows-1252 -*-
-# Eduardo Ribeiro Leal <eduardoleal.contact@gmail.com>
-# calculo de determinantes
-
 import numpy as np
 from config import pega_matriz, determinante
 
